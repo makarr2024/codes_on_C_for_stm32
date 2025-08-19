@@ -1,0 +1,31 @@
+HAL_GPIO_WritePin(LD1_GPIO_Port, LD1_Pin, 1); /*1 светодиод*/
+HAL_Delay(200);
+HAL_GPIO_WritePin(LD1_GPIO_Port, LD1_Pin, 0);
+HAL_Delay(200);
+
+HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, 1); /*2 светодиод*/
+HAL_Delay(200);
+HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, 0);
+HAL_Delay(200);
+
+HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, 1); /*3 светодиод*/
+HAL_Delay(200);
+HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, 0);
+HAL_Delay(200);
+
+/*-------------------------обратная сторона-------------------------------*/
+
+HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, 1); /*3 светодиод*/
+HAL_Delay(200);
+HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, 0);
+HAL_Delay(200);
+
+HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, 1); /*2 светодиод*/
+HAL_Delay(200);
+HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, 0);
+HAL_Delay(200);
+
+HAL_GPIO_WritePin(LD1_GPIO_Port, LD1_Pin, 1); /*1 светодиод*/
+HAL_Delay(200);
+HAL_GPIO_WritePin(LD1_GPIO_Port, LD1_Pin, 0);
+HAL_Delay(200);
